@@ -117,6 +117,18 @@ export default function Header ({ navBarTitle, fullWidth }) {
             siteDescription={BLOG.description}
             postTitle={navBarTitle}
             onClick={handleClickHeader}
+          /><HeaderName
+            ref={titleRef}
+            siteTitle={BLOG.title}
+            siteDescription={BLOG.description}
+            postTitle={navBarTitle}
+            onClick={handleClickHeader}
+          /><HeaderName
+            ref={titleRef}
+            siteTitle={BLOG.title}
+            siteDescription={BLOG.description}
+            postTitle={navBarTitle}
+            onClick={handleClickHeader}
           />
         </div>
         <NavBar />
